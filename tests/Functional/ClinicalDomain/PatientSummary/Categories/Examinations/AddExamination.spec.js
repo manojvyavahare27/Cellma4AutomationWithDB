@@ -145,9 +145,7 @@ test.describe("Examination Category", () => {
       await page.pause();
       await examinationEd.clickOnSaveButton();
       await page.waitForTimeout(1000);
-      await expect(
-        page.getByText("Examination Record Added Successfully")
-      ).toHaveText("Examination Record Added Successfully");
+      await expect(page.getByText("Examination Record Added Successfully")).toHaveText("Examination Record Added Successfully");
 
       //////Fetch Patient Details/////////
       var sqlQuery =
