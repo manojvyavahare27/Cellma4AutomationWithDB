@@ -157,8 +157,7 @@ test.describe("Login Tests", () => {
     await editpatient.selectPrisoner(jsonData.editPatient[index].pat_prisoner_yes)
     
     await editpatient.clickOnSaveForPatientDetails()
-    await expect(page.getByText('Patient updated successfully')).toHaveText('Patient updated successfully')
-    //await page.pause()
+    await expect(page.getByText('Patient updated successfully')).toHaveText('Patient updated successfully')    
     await editpatient.clickOnPatientAddress()   
     await editpatient.clickOnSaveForPatientDetails() 
    // await expect(page.getByText('Patient address added successfully')).toHaveText('Patient address added successfully')
