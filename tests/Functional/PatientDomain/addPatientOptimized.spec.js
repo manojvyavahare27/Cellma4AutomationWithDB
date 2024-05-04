@@ -269,8 +269,7 @@ test.describe('Excel Conversion', () => {
         // await addpip.enterPIPEmailId(pipdetailsdata.Email);
         await addpip.selectPIPRelation(jsonData.pip[index].pip_relationship);
         await addpip.selectPIPNextOfKin(jsonData.pip[index].pip_next_of_kin_Yes);
-        await addpip.SelectPIPFamilyAwareOfIllness(jsonData.pip[index].pip_family_aware_illness_yes);
-       // await page.pause()
+        await addpip.SelectPIPFamilyAwareOfIllness(jsonData.pip[index].pip_family_aware_illness_yes);       
          await addpip.selectPIPIdentifierType(jsonData.pip[index].pip_identifier_type)
         await addpip.enterPIPIdentifier(jsonData.pip[index].pip_identifier_number.toString())
        // await addpip.enterExternalProfessional(pipdetailsdata.ExternalProfessional);
@@ -290,50 +289,39 @@ test.describe('Excel Conversion', () => {
         await page.waitForTimeout(1000);
         await expect(page.getByText("Patient interested party details added successfully")).toHaveText("Patient interested party details added successfully");
 
-        //View PIP
-        //await page.pause()
+        //View PIP        
         await viewpip.clickOnViewPIPLink();
         await viewpip.clickOnCloseViewPopup();
         await viewpip.clickOnNextbntViewPIP();
 
-        //Search GP
-      
+        //Search GP      
         await addgp.clickOnSearchGPBtn();
         await addgp.enterGpSearch();
         await page.waitForTimeout(1000);
         await expect(page.getByText("Local GP found")).toHaveText("Local GP found");
         await addgp.clickOnAddGPBtn();
 
-        // Add GP
-
-       
+        // Add GP       
         await addgp.enterGPTitle(jsonData.addGP[index].egp_title);
         await addgp.enterGPInitials(jsonData.addGP[index].egp_initials);
         await addgp.enterGPGivenName(jsonData.addGP[index].egp_first_name);
         await addgp.enterGPFamilyName(jsonData.addGP[index].egp_surname);
         await addgp.enterGPCode(jsonData.addGP[index].egp_gp_code);
-        await addgp.enterGPPracticeCode(jsonData.addGP[index].egp_practise_code);
-        
+        await addgp.enterGPPracticeCode(jsonData.addGP[index].egp_practise_code);        
         await addgp.enterGPGMCCode(jsonData.addGP[index].egp_gmc_code);
         await addgp.clickOnShowbnt();
         await addgp.selectUnknownPostCode();
-        //Gp Address Details
-       //await page.pause()
+
+
+        //Gp Address Details       
         await addgp.enterLocalGPPostcode()
         await page.waitForTimeout(1000)
         await addgp.enterGpAddressNumberAndRoad(jsonData.gpAddress[index].add_address1)
         await addgp.enterGpAddressDistrict(jsonData.gpAddress[index].add_address3)
         await addgp.enterGpAddressTown(jsonData.gpAddress[index].add_address2)
         await addgp.enterGpAddressCounty(jsonData.gpAddress[index].add_address4)
-        await addgp.enterGPAddressPostCode(jsonData.gpAddress[index].add_address5)
-
-
+        await addgp.enterGPAddressPostCode(jsonData.gpAddress[index].add_address5)       
         
-        // await addgp.enterGPPhone(gpdata.GPPhone);
-        // await addgp.enterGPFax(gpdata.GPFax);
-        // await addgp.enterGPWorkPhone(gpdata.GPWorkPhone);
-        // await addgp.enterGPMobile(gpdata.GPMobile);
-        // await addgp.enterGPEmail(gpdata.GPEmail);
       await addgp.enterGPPhone(jsonData.gpAddress[index].add_phone.toString())
       await addgp.enterGPFax(jsonData.gpAddress[index].add_fax.toString())
       await addgp.enterGPWorkPhone(jsonData.gpAddress[index].add_work_phone.toString())
@@ -353,7 +341,6 @@ test.describe('Excel Conversion', () => {
         
 
         // Print Id Card
-       // await page.getByTestId('Print Id Card').click()        
         const fileInput = await page.$("input[type=file]");
         const filePath = "../Cellma4Automation/UploadPics/Patient.png";        
         await fileInput.setInputFiles(filePath);
