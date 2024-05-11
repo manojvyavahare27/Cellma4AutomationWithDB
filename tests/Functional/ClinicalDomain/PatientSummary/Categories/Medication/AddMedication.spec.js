@@ -174,14 +174,22 @@ test.describe("Medication Category", () => {
         jsonData.AddMedication[index].paprd_endorsement
       );
       // await medicationEd.selectForCondition()
-      await medicationEd.selectPriceCheckQuantity(jsonData.AddMedication[index].meded_value_Price_check_quantity.toString());
-      await medicationEd.enterTotalCost(jsonData.AddMedication[index].paprd_cost.toString());
+      await medicationEd.selectPriceCheckQuantity(
+        jsonData.AddMedication[
+          index
+        ].meded_value_Price_check_quantity.toString()
+      );
+      await medicationEd.enterTotalCost(
+        jsonData.AddMedication[index].paprd_cost.toString()
+      );
       await medicationEd.enterNotes(jsonData.AddMedication[index].medi_notes);
       await page.pause();
       await medicationEd.clickOnSaveMedicationButton();
       await page.waitForTimeout(2000);
       await page.getByRole("button", { name: "Save" }).click();
-      await expect(page.getByText("Medication added successfully")).toHaveText("Medication added successfully");
+      await expect(page.getByText("Medication added successfully")).toHaveText(
+        "Medication added successfully"
+      );
 
       await medicationEd.expandAddedMedication();
       await medicationEd.clickOnMedicationHistoryIcon();

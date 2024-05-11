@@ -11,12 +11,12 @@
   ],
   "addPatient": [
     {
-      "pat_hospital_ref": "hosp0524Id042",
+      "pat_hospital_ref": "href05Di001",
       "pat_title": "B/O",
-      "pat_firstname": "EonE",
+      "pat_firstname": "Diag",
       "pat_surname": "Riomedtest",
       "pat_sex": "M",
-      "pat_dob": "28/09/2023",
+      "pat_dob": "28/09/1994",
       "pat_marital_status": "Single",
       "pat_ethnicity_text": "Indian",
       "pat_occupation": "Trainer",
@@ -46,10 +46,10 @@
     {
       "pat_hospital_ref": "AutoHosp109",
       "pat_title": "B/O",
-      "pat_firstname": "EonE",
+      "pat_firstname": "Diag",
       "pat_surname": "Riomedtest",
       "pat_sex": "M",
-      "pat_dob": "28/09/2023",
+      "pat_dob": "28/09/1994",
       "pat_marital_status": "Single",
       "pat_ethnicity_text": "Indian",
       "pat_occupation": "Trainer",
@@ -77,16 +77,16 @@
   ],
   "patientIdentifier": [
     {
-      "pat_firstname": "EonE",
+      "pat_firstname": "Diag",
       "pat_lastname": "Riomedtest",
       "pat_sex": "M",
-      "pat_dob": "28/09/2023",
+      "pat_dob": "28/09/1994",
       "pid_value1": 8962845424,
       "pid_value2": "Ind009",
       "pat_country": "India",
       "pat_title": "B/O",
       "pat_middlename": "Martin",
-      "add_email": "EonE.Riomedtest@Gmail.com"
+      "add_email": "Diag.Riomedtest@Gmail.com"
     }
   ],
   "tempAddress": [
@@ -426,12 +426,12 @@
   ],
   "patDetails": [
     {
-      "pat_hospital_ref": "hosp0524Id042",
+      "pat_hospital_ref": "href05Di001",
       "pat_dod": "29/09/2023",
       "pat_tod": "10:11",
       "pat_dead_confirmation_status": "confirmed",
       "pat_death_notes": "Added For Testing",
-      "pat_firstname": "EonE",
+      "pat_firstname": "Diag",
       "pat_surname": "Riomedtest"
     }
   ],

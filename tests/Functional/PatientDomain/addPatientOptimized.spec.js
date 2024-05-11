@@ -6,7 +6,7 @@ const path = "C:/Riomed/Cellma4Automation";
 const mysql = require("mysql");
 const convertExcelToJson = require('../../../config/global-setupOptimized');
 
-const { test, expect } = require("@playwright/test");
+const { test, expect, chromium } = require("@playwright/test");
 const connectToDatabase = require("../../../manoj").default;
 const { executeQuery } = require("../../../databaseWriteFile"); // Update the path accordingly
 import compareJsons from "../../../compareFileOrJson"; // Update the path accordingly
@@ -270,7 +270,7 @@ test.describe('Excel Conversion', () => {
         await addpip.selectPIPRelation(jsonData.pip[index].pip_relationship);
         await addpip.selectPIPNextOfKin(jsonData.pip[index].pip_next_of_kin_Yes);
         await addpip.SelectPIPFamilyAwareOfIllness(jsonData.pip[index].pip_family_aware_illness_yes);       
-         await addpip.selectPIPIdentifierType(jsonData.pip[index].pip_identifier_type)
+        await addpip.selectPIPIdentifierType(jsonData.pip[index].pip_identifier_type)
         await addpip.enterPIPIdentifier(jsonData.pip[index].pip_identifier_number.toString())
        // await addpip.enterExternalProfessional(pipdetailsdata.ExternalProfessional);
         

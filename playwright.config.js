@@ -34,7 +34,11 @@ module.exports = defineConfig({
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   //reporter: 'html',
-  reporter: 'html',
+  // reporter: 'html',
+  reporter: [ ['html'],
+              ['allure-playwright',{outputFolder: 'my-allure-result'}]
+
+            ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
@@ -86,21 +90,21 @@ module.exports = defineConfig({
     //   }
     // },
 
-    {
-      name: 'Edge',
-       use: { channel: 'msedge' ,
-        screenshot:"on",
-        video:"on",
-        trace:"on",
-        headless:false,
-       // storageState:'Shree.json',
-        reporter: [["dot"], ["json", { outputFile: "test-result.json" }],
-        ['experimental-allure-playwright']],
-        launchOptions:{
-         // slowMo:500
-        }
-      }
-    },
+    // {
+    //   name: 'Edge',
+    //    use: { channel: 'msedge' ,
+    //     screenshot:"on",
+    //     video:"on",
+    //     trace:"on",
+    //     headless:false,
+    //    // storageState:'Shree.json',
+    //     reporter: [["dot"], ["json", { outputFile: "test-result.json" }],
+    //     ['experimental-allure-playwright']],
+    //     launchOptions:{
+    //      // slowMo:500
+    //     }
+    //   }
+    // },
 
     /* Test against mobile viewports. */
     // {

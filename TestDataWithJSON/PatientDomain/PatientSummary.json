@@ -11,12 +11,12 @@
   ],
   "PatientDetails": [
     {
-      "pat_hospital_ref": "hosp2305Id006",
+      "pat_hospital_ref": "href05Di001",
       "pat_title": "B/O",
-      "pat_firstname": "LinuxR",
+      "pat_firstname": "Diag",
       "pat_surname": "Riomedtest",
       "pat_sex": "M",
-      "pat_dob": "05/11/2023",
+      "pat_dob": "28/09/1994",
       "pat_marital_status": "Single",
       "pat_ethnicity_text": "Indian",
       "pat_occupation": "Trainer",

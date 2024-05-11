@@ -3764,3 +3764,688 @@
 {"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-04T01:30:27.145Z"}
 {"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-04T01:30:27.588Z"}
 {"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-04T01:30:28.339Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-04T01:58:26.998Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-04T01:58:27.199Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-04T01:58:27.605Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-04T01:58:32.380Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-04T01:58:37.564Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-04T01:58:37.952Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-04T01:58:38.631Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-04T02:03:07.626Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-04T02:03:07.812Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-04T02:03:08.209Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-04T02:03:11.962Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-04T02:03:15.772Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-04T02:03:16.167Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-04T02:03:16.839Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-04T02:06:30.724Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-04T02:06:30.940Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-04T02:06:31.181Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-04T03:09:21.071Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-04T03:09:21.264Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-04T03:09:23.504Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-04T03:19:49.284Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-04T03:19:49.416Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-04T03:19:49.806Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-04T03:19:53.580Z"}
+{"date":"Sat May 04 2024 08:51:15 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":172501.265},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","./tests/Functional/PatientDomain/addPatientOptimized.spec.js","./tests/Functional/PatientDomain/Demographics.spec.js","./tests/Functional/PatientDomain/Addreferral.spec.js","./tests/Functional/PatientDomain/ZaPatientDeath.spec.js","--project=chrome","--headed"],"cwd":"C:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":3477733,"external":4964442,"heapTotal":90202112,"heapUsed":58938336,"rss":149774336},"pid":15044,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:21:15.168Z","trace":[{"column":30,"file":"C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"date":"Sat May 04 2024 08:51:15 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":172501.265},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","./tests/Functional/PatientDomain/addPatientOptimized.spec.js","./tests/Functional/PatientDomain/Demographics.spec.js","./tests/Functional/PatientDomain/Addreferral.spec.js","./tests/Functional/PatientDomain/ZaPatientDeath.spec.js","--project=chrome","--headed"],"cwd":"C:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":3477733,"external":4964442,"heapTotal":90202112,"heapUsed":58938336,"rss":149774336},"pid":15044,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:21:15.169Z","trace":[{"column":30,"file":"C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"date":"Sat May 04 2024 08:51:15 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":172501.265},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","./tests/Functional/PatientDomain/addPatientOptimized.spec.js","./tests/Functional/PatientDomain/Demographics.spec.js","./tests/Functional/PatientDomain/Addreferral.spec.js","./tests/Functional/PatientDomain/ZaPatientDeath.spec.js","--project=chrome","--headed"],"cwd":"C:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":3477733,"external":4964442,"heapTotal":90202112,"heapUsed":58938336,"rss":149774336},"pid":15044,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:21:15.169Z","trace":[{"column":30,"file":"C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"date":"Sat May 04 2024 08:52:18 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":172564.234},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","./tests/Functional/PatientDomain/addPatientOptimized.spec.js","./tests/Functional/PatientDomain/Demographics.spec.js","./tests/Functional/PatientDomain/Addreferral.spec.js","./tests/Functional/PatientDomain/ZaPatientDeath.spec.js","--project=chrome","--headed","--workers=1"],"cwd":"C:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":3657770,"external":5144479,"heapTotal":80453632,"heapUsed":50975704,"rss":140021760},"pid":4532,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:22:18.131Z","trace":[{"column":30,"file":"C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"date":"Sat May 04 2024 08:52:18 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":172564.234},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","./tests/Functional/PatientDomain/addPatientOptimized.spec.js","./tests/Functional/PatientDomain/Demographics.spec.js","./tests/Functional/PatientDomain/Addreferral.spec.js","./tests/Functional/PatientDomain/ZaPatientDeath.spec.js","--project=chrome","--headed","--workers=1"],"cwd":"C:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":3657770,"external":5144479,"heapTotal":80453632,"heapUsed":50975704,"rss":140021760},"pid":4532,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:22:18.132Z","trace":[{"column":30,"file":"C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"date":"Sat May 04 2024 08:52:18 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":172564.234},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","./tests/Functional/PatientDomain/addPatientOptimized.spec.js","./tests/Functional/PatientDomain/Demographics.spec.js","./tests/Functional/PatientDomain/Addreferral.spec.js","./tests/Functional/PatientDomain/ZaPatientDeath.spec.js","--project=chrome","--headed","--workers=1"],"cwd":"C:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":3657770,"external":5144479,"heapTotal":80453632,"heapUsed":50975704,"rss":140021760},"pid":4532,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:22:18.132Z","trace":[{"column":30,"file":"C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"date":"Sat May 04 2024 08:53:24 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":172631.031},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","./tests/Functional/PatientDomain/addPatientOptimized.spec.js","./tests/Functional/PatientDomain/Demographics.spec.js","./tests/Functional/PatientDomain/Addreferral.spec.js","--project=chrome","--headed","--workers=1"],"cwd":"C:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":3588356,"external":5075065,"heapTotal":80191488,"heapUsed":49842920,"rss":140034048},"pid":2804,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:23:24.919Z","trace":[{"column":30,"file":"C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"date":"Sat May 04 2024 08:53:24 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":172631.031},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","./tests/Functional/PatientDomain/addPatientOptimized.spec.js","./tests/Functional/PatientDomain/Demographics.spec.js","./tests/Functional/PatientDomain/Addreferral.spec.js","--project=chrome","--headed","--workers=1"],"cwd":"C:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":3588356,"external":5075065,"heapTotal":80191488,"heapUsed":49842920,"rss":140034048},"pid":2804,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:23:24.920Z","trace":[{"column":30,"file":"C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"date":"Sat May 04 2024 08:53:24 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":172631.031},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","./tests/Functional/PatientDomain/addPatientOptimized.spec.js","./tests/Functional/PatientDomain/Demographics.spec.js","./tests/Functional/PatientDomain/Addreferral.spec.js","--project=chrome","--headed","--workers=1"],"cwd":"C:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":3588356,"external":5075065,"heapTotal":80191488,"heapUsed":49842920,"rss":140034048},"pid":2804,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:23:24.920Z","trace":[{"column":30,"file":"C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-04T03:24:15.209Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-04T03:24:15.435Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-04T03:24:15.779Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-04T03:24:19.626Z"}
+{"date":"Sat May 04 2024 08:56:29 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":172815.296},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","./tests/Functional/PatientDomain/addPatientOptimized.spec.js","./tests/Functional/PatientDomain/Demographics.spec.js","./tests/Functional/PatientDomain/Addreferral.spec.js","./tests/Functional/PatientDomain/ZaPatientDeath.spec.js","--project=chrome","--headed","--workers=1--workers=1"],"cwd":"C:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":3657770,"external":5144479,"heapTotal":80453632,"heapUsed":50753088,"rss":139436032},"pid":15704,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:26:29.187Z","trace":[{"column":30,"file":"C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"date":"Sat May 04 2024 08:56:29 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":172815.296},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","./tests/Functional/PatientDomain/addPatientOptimized.spec.js","./tests/Functional/PatientDomain/Demographics.spec.js","./tests/Functional/PatientDomain/Addreferral.spec.js","./tests/Functional/PatientDomain/ZaPatientDeath.spec.js","--project=chrome","--headed","--workers=1--workers=1"],"cwd":"C:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":3657770,"external":5144479,"heapTotal":80453632,"heapUsed":50753088,"rss":139436032},"pid":15704,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:26:29.189Z","trace":[{"column":30,"file":"C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"date":"Sat May 04 2024 08:56:29 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":172815.296},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","./tests/Functional/PatientDomain/addPatientOptimized.spec.js","./tests/Functional/PatientDomain/Demographics.spec.js","./tests/Functional/PatientDomain/Addreferral.spec.js","./tests/Functional/PatientDomain/ZaPatientDeath.spec.js","--project=chrome","--headed","--workers=1--workers=1"],"cwd":"C:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":3657770,"external":5144479,"heapTotal":80453632,"heapUsed":50753088,"rss":139436032},"pid":15704,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:26:29.189Z","trace":[{"column":30,"file":"C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"date":"Sat May 04 2024 08:57:26 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":172872.14},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","./tests/Functional/PatientDomain/Addreferral.spec.js","./tests/Functional/PatientDomain/ZaPatientDeath.spec.js","--project=chrome","--headed","--workers=1--workers=1"],"cwd":"C:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":3444986,"external":4818796,"heapTotal":79929344,"heapUsed":47510824,"rss":137760768},"pid":24704,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:27:26.030Z","trace":[{"column":30,"file":"C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"date":"Sat May 04 2024 08:57:26 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":172872.14},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","./tests/Functional/PatientDomain/Addreferral.spec.js","./tests/Functional/PatientDomain/ZaPatientDeath.spec.js","--project=chrome","--headed","--workers=1--workers=1"],"cwd":"C:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":3444986,"external":4818796,"heapTotal":79929344,"heapUsed":47510824,"rss":137760768},"pid":24704,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:27:26.031Z","trace":[{"column":30,"file":"C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"date":"Sat May 04 2024 08:57:26 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":172872.14},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","./tests/Functional/PatientDomain/Addreferral.spec.js","./tests/Functional/PatientDomain/ZaPatientDeath.spec.js","--project=chrome","--headed","--workers=1--workers=1"],"cwd":"C:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":3444986,"external":4818796,"heapTotal":79929344,"heapUsed":47510824,"rss":137760768},"pid":24704,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:27:26.031Z","trace":[{"column":30,"file":"C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"date":"Sat May 04 2024 08:57:55 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":172901.312},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","./tests/Functional/PatientDomain/Addreferral.spec.js","--project=chrome","--headed","--workers=1--workers=1"],"cwd":"C:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4629772,"external":6003582,"heapTotal":77045760,"heapUsed":55286408,"rss":135786496},"pid":10424,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:27:55.215Z","trace":[{"column":30,"file":"C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"date":"Sat May 04 2024 08:57:55 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":172901.312},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","./tests/Functional/PatientDomain/Addreferral.spec.js","--project=chrome","--headed","--workers=1--workers=1"],"cwd":"C:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4629772,"external":6003582,"heapTotal":77045760,"heapUsed":55286408,"rss":135786496},"pid":10424,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:27:55.216Z","trace":[{"column":30,"file":"C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"date":"Sat May 04 2024 08:57:55 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":172901.312},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","./tests/Functional/PatientDomain/Addreferral.spec.js","--project=chrome","--headed","--workers=1--workers=1"],"cwd":"C:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4629772,"external":6003582,"heapTotal":77045760,"heapUsed":55286408,"rss":135786496},"pid":10424,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:27:55.216Z","trace":[{"column":30,"file":"C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"date":"Sat May 04 2024 08:58:11 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":172917.484},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","./tests/Functional/PatientDomain/Addreferral.spec.js","--project=chrome","--headed","--workers=1"],"cwd":"C:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4657653,"external":6031463,"heapTotal":77045760,"heapUsed":55333232,"rss":135356416},"pid":9284,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:28:11.377Z","trace":[{"column":30,"file":"C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"date":"Sat May 04 2024 08:58:11 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":172917.484},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","./tests/Functional/PatientDomain/Addreferral.spec.js","--project=chrome","--headed","--workers=1"],"cwd":"C:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4657653,"external":6031463,"heapTotal":77045760,"heapUsed":55333232,"rss":135356416},"pid":9284,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:28:11.378Z","trace":[{"column":30,"file":"C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"date":"Sat May 04 2024 08:58:11 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":172917.484},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","./tests/Functional/PatientDomain/Addreferral.spec.js","--project=chrome","--headed","--workers=1"],"cwd":"C:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4657653,"external":6031463,"heapTotal":77045760,"heapUsed":55333232,"rss":135356416},"pid":9284,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:28:11.378Z","trace":[{"column":30,"file":"C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"date":"Sat May 04 2024 08:58:55 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at c:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":172961.218},"process":{"argv":["C:\\Program Files\\nodejs\\node.EXE","c:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","-c","playwright.config.js","--project=chrome","c:\\\\Riomed\\\\Cellma4Automation\\\\tests\\\\Functional\\\\PatientDomain\\\\Addreferral\\.spec\\.js:40","--repeat-each","1","--retries","0"],"cwd":"c:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.EXE","gid":null,"memoryUsage":{"arrayBuffers":3493443,"external":4867253,"heapTotal":84385792,"heapUsed":52340648,"rss":143437824},"pid":3516,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at c:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:28:55.115Z","trace":[{"column":30,"file":"c:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"date":"Sat May 04 2024 08:58:55 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at c:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":172961.218},"process":{"argv":["C:\\Program Files\\nodejs\\node.EXE","c:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","-c","playwright.config.js","--project=chrome","c:\\\\Riomed\\\\Cellma4Automation\\\\tests\\\\Functional\\\\PatientDomain\\\\Addreferral\\.spec\\.js:40","--repeat-each","1","--retries","0"],"cwd":"c:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.EXE","gid":null,"memoryUsage":{"arrayBuffers":3493443,"external":4867253,"heapTotal":84385792,"heapUsed":52340648,"rss":143437824},"pid":3516,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at c:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:28:55.116Z","trace":[{"column":30,"file":"c:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"date":"Sat May 04 2024 08:58:55 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at c:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":172961.218},"process":{"argv":["C:\\Program Files\\nodejs\\node.EXE","c:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","-c","playwright.config.js","--project=chrome","c:\\\\Riomed\\\\Cellma4Automation\\\\tests\\\\Functional\\\\PatientDomain\\\\Addreferral\\.spec\\.js:40","--repeat-each","1","--retries","0"],"cwd":"c:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.EXE","gid":null,"memoryUsage":{"arrayBuffers":3493443,"external":4867253,"heapTotal":84385792,"heapUsed":52340648,"rss":143437824},"pid":3516,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at c:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:28:55.116Z","trace":[{"column":30,"file":"c:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"date":"Sat May 04 2024 09:01:24 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":173110.937},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","./tests/Functional/PatientDomain/Addreferral.spec.js","--project=chrome","--headed","--workers=1"],"cwd":"C:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4629772,"external":6003582,"heapTotal":77045760,"heapUsed":55249728,"rss":136101888},"pid":11696,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:31:24.838Z","trace":[{"column":30,"file":"C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"date":"Sat May 04 2024 09:01:24 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":173110.937},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","./tests/Functional/PatientDomain/Addreferral.spec.js","--project=chrome","--headed","--workers=1"],"cwd":"C:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4629772,"external":6003582,"heapTotal":77045760,"heapUsed":55249728,"rss":136101888},"pid":11696,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:31:24.840Z","trace":[{"column":30,"file":"C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"date":"Sat May 04 2024 09:01:24 GMT+0530 (India Standard Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'pat_id')\nTypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":173110.937},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Riomed\\Cellma4Automation\\node_modules\\@playwright\\test\\cli.js","test","./tests/Functional/PatientDomain/Addreferral.spec.js","--project=chrome","--headed","--workers=1"],"cwd":"C:\\Riomed\\Cellma4Automation","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4629772,"external":6003582,"heapTotal":77045760,"heapUsed":55249728,"rss":136101888},"pid":11696,"uid":null,"version":"v18.20.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'pat_id')\n    at C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js:162:30\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-05-04T03:31:24.841Z","trace":[{"column":30,"file":"C:\\Riomed\\Cellma4Automation\\tests\\Functional\\PatientDomain\\Addreferral.spec.js","function":null,"line":162,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-04T03:32:37.052Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-04T03:32:37.243Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-04T03:32:37.680Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-04T03:32:40.941Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-04T03:32:44.904Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-04T03:32:45.427Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-04T03:32:46.112Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-04T03:36:05.098Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-04T03:36:05.287Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-04T03:36:05.574Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-06T02:43:06.120Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-06T02:43:06.346Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-06T02:43:06.692Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-06T02:43:09.604Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-06T02:43:11.656Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-06T02:43:12.044Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-06T02:43:12.775Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-06T02:49:26.052Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-06T02:49:26.249Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-06T02:49:26.511Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-06T06:36:03.440Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-06T06:36:03.711Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-06T06:36:04.337Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-06T06:36:07.916Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-06T06:36:11.931Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-06T06:36:12.519Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-06T06:36:13.719Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-06T06:46:07.754Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-06T06:46:08.048Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-06T06:46:08.447Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-06T06:50:29.522Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-06T06:50:29.851Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-06T06:50:30.528Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-07T02:43:29.318Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-07T02:43:29.448Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-07T02:43:31.010Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-07T02:43:33.520Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-07T02:43:36.518Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-07T02:43:37.218Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-07T02:43:37.987Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-07T02:52:40.330Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-07T02:52:40.510Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-07T02:52:40.881Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-07T02:55:55.338Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-07T02:55:55.514Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-07T02:55:55.838Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-07T08:33:46.013Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-07T08:33:46.244Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-07T08:33:46.560Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-07T08:33:49.001Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-07T08:33:51.099Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-07T08:33:51.697Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-07T08:33:52.352Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-07T08:35:54.319Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-07T08:35:54.494Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-07T08:35:54.879Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-07T08:35:57.686Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-07T08:36:05.916Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-07T08:36:06.312Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-07T08:36:06.956Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-07T08:39:35.443Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-07T08:39:35.660Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-07T08:39:35.962Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-07T08:55:50.586Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-07T08:55:50.777Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-07T08:55:51.104Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-07T08:55:53.343Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-07T08:55:55.573Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-07T08:55:55.962Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-07T08:55:56.678Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-07T08:57:22.870Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-07T08:57:23.048Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-07T08:57:23.389Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-07T08:57:25.803Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-07T08:57:28.089Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-07T08:57:28.473Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-07T08:57:29.122Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-07T08:58:40.104Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-07T08:58:40.300Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-07T08:58:40.841Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-07T08:58:43.176Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-07T08:58:45.505Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-07T08:58:45.903Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-07T08:58:46.589Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-07T09:00:41.617Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-07T09:00:41.821Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-07T09:00:42.146Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-07T09:00:44.865Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-07T09:00:46.972Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-07T09:00:47.353Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-07T09:00:47.985Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-07T10:11:25.514Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-07T10:11:25.777Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-07T10:11:26.156Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-07T10:11:28.961Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-07T10:11:39.400Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-07T10:11:39.922Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-07T10:11:40.699Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-07T10:16:33.261Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-07T10:16:33.593Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-07T10:16:34.279Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-07T10:16:38.726Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-07T10:16:43.493Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-07T10:16:44.045Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-07T10:16:44.993Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-07T10:28:31.198Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-07T10:28:31.440Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-07T10:28:31.746Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-07T10:28:35.595Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-07T10:28:40.598Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-07T10:28:41.175Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-07T10:28:42.067Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-07T10:33:13.479Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-07T10:33:13.686Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-07T10:33:14.035Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-07T10:33:17.403Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-07T10:33:26.668Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-07T10:33:27.063Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-07T10:33:27.727Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-07T10:36:32.151Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-07T10:36:32.381Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-07T10:36:32.790Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-07T10:36:36.926Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-07T10:36:42.490Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-07T10:36:43.015Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-07T10:36:43.763Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-07T10:56:36.335Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-07T10:56:36.518Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-07T10:56:37.013Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-07T10:56:39.379Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-07T10:56:42.318Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-07T10:56:42.823Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-07T10:56:43.753Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T05:39:01.191Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T05:39:01.443Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T05:39:01.813Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T05:39:06.345Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T05:39:10.724Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T05:39:11.190Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T05:39:11.943Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T06:08:23.654Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T06:08:24.001Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T06:08:24.449Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T06:13:52.825Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T06:13:53.055Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T06:13:53.519Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T06:13:59.469Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T06:14:05.694Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T06:14:06.270Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T06:14:07.341Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T06:16:03.284Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T06:16:03.463Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T06:16:03.985Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T06:16:08.860Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T06:16:14.937Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T06:16:15.483Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T06:16:16.378Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T06:24:19.264Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T06:24:19.477Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T06:24:19.933Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T06:24:24.997Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T06:24:30.522Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T06:24:31.109Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T06:24:32.031Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T06:38:22.135Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T06:38:22.355Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T06:38:22.787Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T06:38:26.743Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T06:38:31.691Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T06:38:32.262Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T06:38:33.101Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T07:13:16.579Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T07:13:16.808Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T07:13:17.232Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T07:13:21.003Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T07:13:26.213Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T07:13:26.718Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T07:13:27.496Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T07:15:13.941Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T07:15:14.147Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T07:15:14.529Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T07:15:19.348Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T07:15:24.722Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T07:15:25.278Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T07:15:26.069Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T07:49:25.634Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T07:49:25.858Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T07:49:26.361Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T07:49:32.889Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T07:49:39.534Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T07:49:40.033Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T07:49:41.201Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T07:52:55.521Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T07:52:55.895Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T07:52:56.545Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T07:53:02.888Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T07:53:10.224Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T07:53:11.064Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T07:53:12.785Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T08:02:25.226Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T08:02:25.427Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T08:02:25.842Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T08:02:31.748Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T08:02:38.656Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T08:02:39.162Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T08:02:40.221Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T08:09:35.618Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T08:09:35.886Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T08:13:29.666Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T08:13:29.949Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T08:15:23.108Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T08:15:23.470Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T08:15:23.985Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T08:15:28.913Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T08:15:35.557Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T08:15:36.260Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T08:15:37.609Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T08:24:52.001Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T08:24:52.187Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T08:24:52.544Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T08:24:57.967Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T08:25:04.375Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T08:25:04.914Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T08:25:05.811Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T08:26:58.307Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T08:26:58.560Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T08:26:59.009Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T08:27:04.105Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T08:27:09.592Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T08:27:10.159Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T08:27:11.221Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T08:43:19.286Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T08:43:19.489Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T08:43:19.929Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T08:43:24.738Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T08:43:30.541Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T08:43:31.029Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T08:43:32.017Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T08:45:38.884Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T08:45:39.151Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T08:45:39.495Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T08:45:44.329Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T08:45:50.405Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T08:45:50.950Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T08:45:51.742Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T08:54:27.611Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T08:54:28.070Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T08:54:28.559Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T08:54:33.283Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T08:54:38.891Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T08:54:39.646Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T08:54:41.083Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T08:59:00.344Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T08:59:00.609Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T08:59:00.949Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T08:59:05.945Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T08:59:11.560Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T08:59:11.999Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T08:59:12.856Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T09:07:05.768Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T09:07:05.951Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T09:07:06.381Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T09:07:11.410Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T09:07:17.718Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T09:07:18.288Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T09:07:19.075Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T09:17:25.199Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T09:17:25.617Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T09:17:26.107Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T09:17:33.204Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T09:17:39.295Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T09:17:40.145Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T09:17:41.642Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T09:20:45.434Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T09:20:45.887Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T09:20:46.842Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T09:20:50.633Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T09:20:55.989Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T09:20:56.716Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T09:20:58.276Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T09:28:31.877Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T09:28:32.058Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T09:28:32.445Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T09:28:36.795Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T09:28:41.836Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T09:28:42.396Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T09:28:43.152Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T09:35:30.426Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T09:35:30.599Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T09:35:31.121Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T09:35:35.473Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T09:35:40.264Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T09:35:40.889Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T09:35:41.666Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T10:00:25.502Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T10:00:25.920Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T10:00:26.729Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T10:00:30.694Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T10:00:35.540Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T10:00:36.142Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T10:00:37.381Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T10:32:55.619Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T10:32:55.839Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T10:32:56.306Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T10:33:02.091Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T10:33:21.567Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T10:33:22.170Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T10:33:23.099Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T10:39:07.628Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T10:39:07.822Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T10:39:08.248Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T10:39:12.705Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T10:39:17.961Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T10:39:18.566Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T10:39:19.343Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T10:49:48.045Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T10:49:48.282Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T10:49:48.715Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T10:49:53.003Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T10:49:59.526Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T10:50:00.024Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T10:50:00.915Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T10:52:20.544Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T10:52:20.755Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T10:52:21.145Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T10:52:25.642Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T10:52:31.581Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T10:52:32.111Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T10:52:32.892Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T10:55:35.589Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T10:55:35.870Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T10:55:36.259Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T10:55:40.447Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T10:55:46.126Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T10:55:46.643Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T10:55:47.540Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-08T11:09:20.981Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-08T11:09:21.180Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-08T11:09:21.574Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-08T11:09:26.411Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-08T11:09:40.765Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-08T11:09:41.252Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-08T11:09:42.051Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T02:39:01.241Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T02:39:01.593Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T02:39:02.011Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T02:39:05.074Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T02:39:13.852Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T02:39:14.398Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T02:39:15.249Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T05:33:12.381Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T05:33:12.621Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T05:33:13.183Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T05:33:18.161Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T05:33:26.081Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T05:33:26.753Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T05:33:27.636Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T05:38:19.824Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T05:38:20.116Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T05:38:20.460Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T05:38:24.771Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T05:38:34.436Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T05:38:35.016Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T05:38:35.965Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T05:40:32.362Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T05:40:32.611Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T05:40:32.924Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T05:40:37.837Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T05:41:13.306Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T05:41:13.734Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T05:41:14.515Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T05:48:49.367Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T05:48:49.633Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T05:48:50.263Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T05:48:54.125Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T05:49:08.380Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T05:49:08.934Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T05:49:09.814Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T05:58:20.439Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T05:58:20.720Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T05:58:21.391Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T05:58:25.346Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T05:58:31.285Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T05:58:31.745Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T05:58:32.568Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T06:23:55.386Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T06:23:55.558Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T06:23:55.909Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T06:23:58.582Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T06:24:00.366Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T06:24:00.736Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T06:24:01.428Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T06:42:07.565Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T06:42:07.807Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T06:42:08.123Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T06:42:10.720Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T06:42:15.683Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T06:42:16.223Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T06:42:17.176Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T06:46:06.757Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T06:46:07.050Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T06:46:07.409Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T06:46:10.095Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T06:46:14.019Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T06:46:14.518Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T06:46:15.273Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T07:55:34.117Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T07:55:34.370Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T07:55:34.706Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T07:55:37.444Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T07:55:39.105Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T07:55:39.560Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T07:55:40.275Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T09:12:05.482Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T09:12:05.738Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T09:12:06.264Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T09:12:08.787Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T09:12:11.055Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T09:12:11.524Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T09:12:12.489Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T09:17:15.195Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T09:17:15.421Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T09:17:15.755Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T09:17:18.178Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T09:17:20.127Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T09:17:20.555Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T09:17:21.356Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T09:20:43.114Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T09:20:43.372Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T09:20:43.944Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T09:20:47.469Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T09:20:49.854Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T09:20:50.511Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T09:20:51.833Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T09:27:27.450Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T09:27:27.620Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T09:27:27.960Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T09:27:30.197Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T09:27:31.891Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T09:27:32.239Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T09:27:32.924Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T09:39:48.494Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T09:39:48.767Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T09:39:49.150Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T09:39:51.924Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T09:39:55.898Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T09:39:56.481Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T09:39:57.379Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T09:43:27.830Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T09:43:28.011Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T09:43:28.354Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T09:43:30.704Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T09:43:32.418Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T09:43:32.825Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T09:43:33.473Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T09:51:45.756Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T09:51:45.992Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T09:51:46.320Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T09:51:48.635Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T09:51:50.274Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T09:51:50.711Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T09:51:51.377Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T10:15:14.459Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T10:15:14.619Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T10:15:14.919Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T10:15:17.186Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T10:15:19.005Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T10:15:19.423Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T10:15:20.086Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T10:19:48.358Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T10:19:48.634Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T10:19:49.282Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T10:19:52.150Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T10:19:55.460Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T10:19:56.031Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T10:19:56.931Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T10:52:07.731Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T10:52:08.126Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T10:52:08.885Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T10:52:12.091Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T10:52:17.143Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T10:52:17.836Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T10:52:19.190Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T10:53:47.413Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T10:53:47.667Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T10:53:47.981Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T10:53:50.791Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T10:53:53.940Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T10:53:54.432Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T10:53:55.367Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T10:54:59.175Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T10:54:59.464Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T10:54:59.916Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T10:55:02.144Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T10:55:04.375Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T10:55:04.842Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T10:55:05.692Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T10:58:57.181Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T10:58:57.474Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T10:58:58.069Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T10:59:00.903Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T10:59:04.929Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T10:59:05.471Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T10:59:06.360Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T11:03:31.190Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T11:03:31.423Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T11:03:31.774Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T11:03:34.786Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T11:03:40.904Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T11:03:41.387Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T11:03:42.304Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T11:28:06.702Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T11:28:06.981Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T11:28:07.654Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T11:28:10.470Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T11:28:14.128Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T11:28:14.714Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T11:28:15.621Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T11:31:34.007Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T11:31:34.264Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T11:31:34.900Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T11:31:37.748Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T11:31:41.427Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T11:31:42.002Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T11:31:42.826Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-09T17:34:30.145Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-09T17:34:30.326Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-09T17:34:30.675Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-09T17:34:35.016Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-09T17:34:39.857Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-09T17:34:40.231Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-09T17:34:40.932Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-10T02:45:25.446Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-10T02:45:25.651Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-10T02:45:26.070Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-10T02:45:29.503Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-10T02:45:33.833Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-10T02:45:34.298Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-10T02:45:35.039Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-10T02:47:19.005Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-10T02:47:19.197Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-10T02:47:19.547Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-10T02:47:22.376Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-10T02:47:26.752Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-10T02:47:27.124Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-10T02:47:27.768Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-10T02:48:55.899Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-10T02:48:56.101Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-10T02:48:56.454Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-10T02:48:59.702Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-10T02:49:04.158Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-10T02:49:04.630Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-10T02:49:05.350Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-10T02:52:17.890Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-10T02:52:18.062Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-10T02:52:18.425Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-10T02:52:21.647Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-10T02:52:25.663Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-10T02:52:26.023Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-10T02:52:26.693Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-10T02:53:49.419Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-10T02:53:49.621Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-10T02:53:50.004Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-10T02:53:53.389Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-10T02:53:57.905Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-10T02:53:58.273Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-10T02:53:58.957Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-10T02:59:04.060Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-10T02:59:04.247Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-10T02:59:04.594Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-10T02:59:07.830Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-10T02:59:11.862Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-10T02:59:12.238Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-10T02:59:12.877Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-10T03:07:37.512Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-10T03:07:37.699Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-10T03:07:38.048Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-10T03:07:41.259Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-10T03:07:45.765Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-10T03:07:46.168Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-10T03:07:46.827Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-10T03:09:31.029Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-10T03:09:31.270Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-10T03:09:31.702Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-10T03:09:34.978Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-10T03:09:39.117Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-10T03:09:39.516Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-10T03:09:40.181Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-10T08:04:25.840Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-10T08:04:26.056Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-10T08:04:26.534Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-10T08:04:30.826Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-10T08:04:36.932Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-10T08:04:37.490Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-10T08:04:38.481Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-10T08:07:35.749Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-10T08:07:36.043Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-10T08:07:36.476Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-10T08:07:40.335Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-10T08:07:45.866Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-10T08:07:46.373Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-10T08:07:47.573Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-10T08:10:00.773Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-10T08:10:01.021Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-10T08:10:01.432Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-10T08:10:04.985Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-10T08:10:10.609Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-10T08:10:11.132Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-10T08:10:12.294Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-10T08:15:04.884Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-10T08:15:05.128Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-10T08:15:05.571Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-10T08:15:11.594Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-10T08:15:17.150Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-10T08:15:17.790Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-10T08:15:18.807Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-10T08:17:56.330Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-10T08:17:56.531Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-10T08:17:57.017Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-10T08:18:01.016Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-10T08:18:06.286Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-10T08:18:06.872Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-10T08:18:07.868Z"}
+{"level":"info","message":"Username enter successfully","timestamp":"2024-05-10T08:21:45.592Z"}
+{"level":"info","message":"Password enter successfully","timestamp":"2024-05-10T08:21:45.793Z"}
+{"level":"info","message":"Clicked on Login button successfully","timestamp":"2024-05-10T08:21:46.288Z"}
+{"level":"info","message":"Clicked on Patient Icon successfully","timestamp":"2024-05-10T08:21:50.159Z"}
+{"level":"info","message":"Clicked on Search button successfully","timestamp":"2024-05-10T08:21:59.882Z"}
+{"level":"info","message":"Given Name entered successfully","timestamp":"2024-05-10T08:22:00.458Z"}
+{"level":"info","message":"Family Name entered successfully","timestamp":"2024-05-10T08:22:01.599Z"}

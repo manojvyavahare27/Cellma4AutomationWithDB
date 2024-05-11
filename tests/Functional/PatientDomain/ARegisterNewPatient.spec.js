@@ -431,8 +431,7 @@ catch(err)
   await addgp.enterGPEmail(gpdata.GPEmail)
 
   await addgp.clickOnSaveGPButton()
-  await expect(page.getByText('GP Added Successfully')).toHaveText('GP Added Successfully')
-  // await page.pause()
+  await expect(page.getByText('GP Added Successfully')).toHaveText('GP Added Successfully')  
   await addgp.enterAppGpSearch()
   // Add GP To Patient     
   await addgp.clickOnPersonAddButton()

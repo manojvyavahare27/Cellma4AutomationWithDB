@@ -13,7 +13,7 @@ import logger from "../../../../../../Pages/BaseClasses/logger";
 import LoginPage from "../../../../../../Pages/BaseClasses/LoginPage";
 import Homepage from "../../../../../../Pages/BaseClasses/Homepage";
 import ConfirmExisting from "../../../../../../Pages/PatientDomain/ConfirmExisting";
-import ContactHistory from "../../../../../../Pages/PatientDomain/ContactHistory";
+import ContactHistory from "../../../../../../Pages/ClinicalDomain/PatientSummary/ContactHistory"
 import PatientSearch from "../../../../../../Pages/PatientDomain/PatientSearch";
 import Environment from "../../../../../../Pages/BaseClasses/Environment";
 import Menu from "../../../../../../Pages/BaseClasses/Menu";
@@ -83,6 +83,8 @@ test.describe("Examination Category", () => {
       await loginpage.enter_Password(jsonData.loginDetails[0].password);
       logger.info("Password enter successfully");
       await loginpage.clickOnLogin();
+
+      
       logger.info("Clicked on Login button successfully");
       await homepage.clickOnPatientIcon();
       logger.info("Clicked on Patient Icon successfully");
@@ -100,11 +102,13 @@ test.describe("Examination Category", () => {
       await patientsearch.clickOnSearchButton();
       await patientsearch.clickOnSearchPatientLink();
       await page.waitForTimeout(1000);
+      await page.pause()
       await confirmexisting.clickOnConfirmExistingDetails();
-      await contacthistory.clickOnMenuIcon();
-      await page.waitForTimeout(2000);
-      await contacthistory.clickOnMenuIcon();
+      // await contacthistory.clickOnMenu();
+      // await page.waitForTimeout(2000);
+      // await contacthistory.clickOnMenu();
 
+      await page.pause()
       //Add Recommendation
       const flag = false;
       await patientsummary.clickOniconRecommendation();
@@ -145,8 +149,7 @@ test.describe("Examination Category", () => {
       await page.pause();
       await examinationEd.clickOnSaveButton();
       await page.waitForTimeout(1000);
-      await expect(page.getByText("Examination Record Added Successfully"))
-      .toHaveText("Examination Record Added Successfully");
+      await expect(page.getByText("Examination Record Added Successfully")).toHaveText("Examination Record Added Successfully");
 
       //////Fetch Patient Details/////////
       var sqlQuery =
@@ -163,18 +166,19 @@ test.describe("Examination Category", () => {
       sqlQuery =
         "select pacr_id, pacr_category, pacr_que_name, exam_outcome, pacr_clinic_date, exam_notes" +
         " from patient_clinical_records join patient_clinical_records_details on pacr_id=pacrd_pacr_id" +
-        "join examinations on pacr_id=exam_pacr_id where pacr_record_status='approved' and " +
+        " join examinations on pacr_id=exam_pacr_id where pacr_record_status='approved' and " +
         "pacrd_record_status='approved' and exam_record_status='approved' and pacr_pat_id=" +
         patId +
         " and pacr_record_status='approved' and pacr_que_name='" +
         jsonData.AddExamination[index].pacr_que_name +
         "' and pacr_category='examination' order by 1 desc limit 1";
-
+       //console.log("Query Output:"+sqlQuery);
+       
       sqlFilePath = "SQLResults/ClinicalDomain/patientClinicalRecord.json";
       results = await executeQuery(sqlQuery, sqlFilePath);
       const pacrId = results[0].pacr_id;
 
-      console.log("\n Patient Details stored into the database: \n", results);
+      console.log("\n Patient Clinical Records stored into the database: \n", results);
       var match = await compareJsons(
         sqlFilePath,
         null,
@@ -182,13 +186,15 @@ test.describe("Examination Category", () => {
       );
       if (match) {
         console.log(
-          "\n Patient Details Comparision: Parameters from both JSON files match!\n"
+          "\n Patient Clinical Records Comparision: Parameters from both JSON files match!\n"
         );
       } else {
         console.log(
-          "\n Patient Details Comparision: Parameters from both JSON files do not match!\n"
+          "\n Patient Clinical Records Comparision: Parameters from both JSON files do not match!\n"
         );
       }
+
+      
 
       //   //////Database comparison- Examination table/////////
       //   sqlQuery =
@@ -198,9 +204,9 @@ test.describe("Examination Category", () => {
       // console.log("\n Patient Details stored into the database: \n", results);
       // var match = await compareJsons(sqlFilePath, null, jsonData.AddExamination[index]);
       // if (match) {
-      //   console.log("\n Patient Details Comparision: Parameters from both JSON files match!\n" );
+      //   console.log("\n Examination table Comparision: Parameters from both JSON files match!\n" );
       // } else {
-      //   console.log("\n Patient Details Comparision: Parameters from both JSON files do not match!\n");
+      //   console.log("\n Examination table Comparision: Parameters from both JSON files do not match!\n");
       // }
 
       //   //////Database comparison- Patient Clinical records Details table/////////
@@ -211,19 +217,20 @@ test.describe("Examination Category", () => {
       // console.log("\n Patient Details stored into the database: \n", results);
       // var match = await compareJsons(sqlFilePath, null, jsonData.AddExamination[index]);
       // if (match) {
-      //   console.log("\n Patient Details Comparision: Parameters from both JSON files match!\n" );
+      //   console.log("\n Patient Clinical records Details Comparision: Parameters from both JSON files match!\n" );
       // } else {
-      //   console.log("\n Patient Details Comparision: Parameters from both JSON files do not match!\n");
+      //   console.log("\n Patient Clinical records Details Comparision: Parameters from both JSON files do not match!\n");
       // }
 
       //////Database comparison- Patient Clinical records Linking/////////
       sqlQuery =
         "select pacr_id from patient_clinical_records where pacr_pat_id=" +
         patId +
-        " and pacr_category='Recommendation' and pacr_record_status='approved' and pacr_que_name=" +
+        " and pacr_category='Recommendation' and pacr_record_status='approved' and pacr_que_name='" +
         jsonData.AddExamination[index].pacr_que_name_recommendation +
-        " order by pacr_id desc limit 1";
+        "' order by pacr_id desc limit 1";
 
+        //console.log("Manoj Vyavahare"+sqlQuery);
       sqlFilePath = "SQLResults/ClinicalDomain/patientClinicRecordlinking.json";
       results = await executeQuery(sqlQuery, sqlFilePath);
       console.log("Waiting for SQL result....");
@@ -294,11 +301,11 @@ test.describe("Examination Category", () => {
       );
       if (match) {
         console.log(
-          "\n Patient Details Comparision: Parameters from both JSON files match!\n"
+          "\n Patient Clinical Records Comparision: Parameters from both JSON files match!\n"
         );
       } else {
         console.log(
-          "\n Patient Details Comparision: Parameters from both JSON files do not match!\n"
+          "\n Patient Clinical Records Comparision: Parameters from both JSON files do not match!\n"
         );
       }
 
@@ -317,11 +324,11 @@ test.describe("Examination Category", () => {
       );
       if (match) {
         console.log(
-          "\n Patient Details Comparision: Parameters from both JSON files match!\n"
+          "\n Examination table Comparision: Parameters from both JSON files match!\n"
         );
       } else {
         console.log(
-          "\n Patient Details Comparision: Parameters from both JSON files do not match!\n"
+          "\n Examination table Comparision: Parameters from both JSON files do not match!\n"
         );
       }
 
@@ -332,7 +339,7 @@ test.describe("Examination Category", () => {
         "";
       sqlFilePath = "SQLResults/ClinicalDomain/patientClinicRecordDetails.json";
       results = await executeQuery(sqlQuery, sqlFilePath);
-      console.log("\n Patient Details stored into the database: \n", results);
+      console.log("\n Patient Clinical records Details stored into the database: \n", results);
       var match = await compareJsons(
         sqlFilePath,
         null,
@@ -340,11 +347,11 @@ test.describe("Examination Category", () => {
       );
       if (match) {
         console.log(
-          "\n Patient Details Comparision: Parameters from both JSON files match!\n"
+          "\n Patient Clinical records Details Comparision: Parameters from both JSON files match!\n"
         );
       } else {
         console.log(
-          "\n Patient Details Comparision: Parameters from both JSON files do not match!\n"
+          "\n Patient Clinical records Details Comparision: Parameters from both JSON files do not match!\n"
         );
       }
 
@@ -372,6 +379,7 @@ test.describe("Examination Category", () => {
         "select * from patient_clinical_records where pacr_id=" +
         pacrId +
         " and pacr_record_status='wrong'";
+        console.log("Manoj"+ sqlQuery);
       sqlFilePath = "SQLResults/ClinicalDomain/patientClinicalRecord.json";
       results = await executeQuery(sqlQuery, sqlFilePath);
       //  pacrId=results[0].pacr_id;
@@ -383,14 +391,17 @@ test.describe("Examination Category", () => {
       );
       if (match) {
         console.log(
-          "\n Patient Details Comparision: Parameters from both JSON files match!\n"
+          "\n  Patient Clinical Records Comparision: Parameters from both JSON files match!\n"
         );
       } else {
         console.log(
-          "\n Patient Details Comparision: Parameters from both JSON files do not match!\n"
+          "\n  Patient Clinical Records Comparision: Parameters from both JSON files do not match!\n"
         );
       }
+      
       //await page.pause()
     }
+
+    
   });
 });

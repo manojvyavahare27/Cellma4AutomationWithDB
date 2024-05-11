@@ -8,11 +8,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.41.2",
+    "@playwright/test": "^1.43.1",
     "@types/node": "^20.11.17",
     "allure": "^0.0.0",
     "allure-commandline": "^2.27.0",
-    "allure-playwright": "^2.13.0"
+    "allure-playwright": "^2.15.1"
   },
   "dependencies": {
     "allure-js-commons": "^2.15.1",
